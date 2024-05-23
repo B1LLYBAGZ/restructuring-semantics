@@ -15,7 +15,8 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/*The Div in html classified as "headear" was changed to the samantic element header thus leading to the removal of the 
+class="header" selector so the css needed to be chnaged from the class selector .header to the element selecter header*/
 header h1 {
   display: inline-block;
   font-size: 48px;
@@ -188,7 +189,8 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/*The footer element was also a non sematic elemenet meaing the footer element was a div element. That was changed as well as the CSS file 
+to target the element footer and not the class="footer"*/
 footer {
   padding: 30px;
   clear: both;
